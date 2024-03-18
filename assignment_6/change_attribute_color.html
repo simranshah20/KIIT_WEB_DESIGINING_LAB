@@ -1,0 +1,50 @@
+<!-- change the attribute color of the cell using nth child and tahble header background color black and text color white and italic -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: solid 1px grey;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+            font-style: italic;
+        }
+
+        td:nth-child(odd) {
+            background-color: red;
+        }
+
+        td:nth-child(even) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+</body>
+
+</html>

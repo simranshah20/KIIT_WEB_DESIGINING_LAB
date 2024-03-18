@@ -1,0 +1,52 @@
+<!-- create 4 user defined function like addition,subtraction,multiplication and divisionusing js(via button) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        p {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- addition -->
+    <p id="x"></p>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        let s = add(2, 3);
+    </script>
+    <button type="button" onclick='document.getElementById("x").innerHTML=s'>ADD</button>
+    <!-- subtraction -->
+    <p id="y"></p>
+    <script>
+        function add(a, b) {
+            return a - b;
+        }
+        let d = add(6, 3);
+    </script>
+    <button type="button" onclick='document.getElementById("y").innerHTML=d'>SUB</button>
+    <!-- multiplication -->
+    <p id="z"></p>
+    <script>
+        function add(a, b) {
+            return a * b;
+        }
+        let m = add(2, 3);
+    </script>
+    <button type="button" onclick='document.getElementById("z").innerHTML=m'>MUL</button>
+    <!-- Division -->
+    <p id="c"></p>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        let n = add(2, 3);
+    </script>
+    <button type="button" onclick='document.getElementById("c").innerHTML=n'>DIV</button>
+</body>
+
+</html>
